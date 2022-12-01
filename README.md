@@ -1,9 +1,15 @@
-# PASSO 1:
-Ira ter o arquivo chamado 'programa.c' que é o codigo e para compilar ele algo similar ao F9 no DEVC++: Basta executar no terminal abaixo o comando:
+# COMPILACAO:
 
-gcc testeMarcos.c
+Comando para compilar o arquivo C
 
-# PASSO 2:
-Apois compilar ele ira gera um arquivo a.out para visualizar o codigo basta executa o arquivo a.out:
+gcc -pthread -o APS2 APS2.c
 
-./a.out
+gcc -pthread -o APS2_NEW APS2_NEW.c
+
+# LINKS:
+
+https://gist.github.com/jonatasnona/5371859
+
+https://homepages.dcc.ufmg.br/~coutinho/pthreads/ProgramandoComThreads.pdf
+
+https://www.ic.unicamp.br/~islene/mc514/prod-cons/prod-cons.pdf
